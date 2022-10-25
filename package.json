@@ -1,0 +1,30 @@
+{
+    "name": "03-API_Node_Express_com_TypeScript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node-dev src/app.ts",
+        "typeorm": "typeorm-ts-node-commonjs"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.0",
+        "@types/express": "^4.17.13",
+        "@types/jsonwebtoken": "^8.5.8",
+        "@types/node": "^17.0.25",
+        "@types/uuid": "^8.3.4",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.6.3"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "express-async-errors": "^3.1.1",
+        "jsonwebtoken": "^8.5.1",
+        "pg": "^8.7.3",
+        "reflect-metadata": "^0.1.13",
+        "typeorm": "^0.3.6",
+        "uuid": "^8.3.2"
+    }
+}
